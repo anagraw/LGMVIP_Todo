@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("back.jpg");
+  background-size: cover;
+
+}
+html{
+  font-size: 62.5%;
+  
+
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

@@ -1,0 +1,71 @@
+.todolistcont{
+  margin: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80rem;
+  min-height: 50rem;
+  border: 1px solid black;
+  background-color: #F7ECDE;
+  border-radius: 1rem;
+}
+.todo-form{
+  display: flex;
+  width: 100%;
+  font-size: 2rem;
+  gap: 2rem;
+}
+
+.todo-input{
+  border: 1px solid black;
+  font-size: 2rem;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+.todo-input::placeholder{
+  font-size: 2rem;
+  
+}
+.todosubtn{
+  border: 1px solid black;
+  background-color: white;
+  padding: 3rem;
+  border-radius: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.todosubtn:hover{
+  background-color: black;
+  border-radius: 1rem;
+  color: white;
+  font-weight: 600;
+}
+.task-div{
+  background-color: #E8F9FD;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem;
+  box-sizing: 0.5rem 0.5rem 1rem gainsboro;
+  border-radius: 1rem;
+}
+.todo-text{
+  font-size: 2.5rem;
+}
+.icons{
+  display: flex;
+  gap: 3rem;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+.complete{
+  text-decoration: line-through;
+  opacity: 0.5;
+  background-color: greenyellow;
+
+}
+.hide{
+  display: none;
+}
